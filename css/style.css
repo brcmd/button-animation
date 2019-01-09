@@ -1,0 +1,39 @@
+body {
+	background-color: #f5f5f5; 
+	font-family: 'open sans', helvetica, sans-serif;
+	font-size: 1.6em;
+}
+
+.wrapper {
+	margin: 10em auto 2em auto;
+	width:80%;
+	position:relative;
+}
+
+p {
+	color: #555555;
+	text-align: center;
+}
+
+button {
+	cursor: hand;
+	border-radius: 5px;
+	background-color: #00aed9;
+	color: white;
+	font:weight: 900;
+	font-size: 1rem;
+	border: none;
+	padding:1em 3em;
+	margin: 2em auto;
+	display:block;
+	transition: background 0.25s ease-in-out, transform 0.5s ease-in-out;
+}
+
+button:hover {
+	background: #ff535b;
+	transform: scale(1.05);
+}
+
+
+
+
